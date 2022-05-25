@@ -1,0 +1,27 @@
+@keyframes background-fade-in-animation {
+    0% {
+        background-color: whitesmoke;
+    }
+    10% {
+        background-color: whitesmoke;
+    }
+    100% {
+        background-color: #0a0a0a;
+    }
+}
+
+.logo_solar_animation {
+    height: 10em;
+    width: 10em ;
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+}
+
+.background_initial_animation {
+    background-color: #0a0a0a;
+    animation-name: background-fade-in-animation;
+    animation-duration: 8s;
+}
