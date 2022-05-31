@@ -13,3 +13,4 @@ Cultured Team is one of the students' groups from [UOW Malaysia KDU Penang](http
 - [@FujisakiSakiasahi](https://github.com/FujisakiSakiasahi) (Tan Wei Harng)
 - [@Viwyn](https://github.com/Viwyn) (Ooi Wei Chuen)
 - [@JhunKit](https://github.com/Jhunkit) (Kok Jhun Kit)
+- [@tgm1509](https://github.com/tgm1509) (Kong Ding Hui)
