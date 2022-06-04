@@ -54,4 +54,20 @@ body,html {
     width: 20%;
     padding: 20px;
     text-align: center;
-    }
+}
+
+.bg-text:hover {
+    color: #ff751A;
+    transition: .2s;
+}
+
+
+/*Don't use this, fucks everything up*/
+.hovercover {
+    margin: 0 auto;
+    transition: .2s;
+}
+
+.hovercover:hover {
+    transform: scale(1.2);
+}
