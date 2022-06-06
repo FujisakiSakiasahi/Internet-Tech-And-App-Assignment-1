@@ -1,6 +1,6 @@
 body,html {
     height: 100%;
-    background-color: #181818;
+    background-color: #0a0a0a;
 }
 
 *{
@@ -33,6 +33,7 @@ body,html {
     margin: 10px;
 }
 
+/*unused*/
 .table{
     color: white;
     position: absolute; 
@@ -62,12 +63,11 @@ body,html {
 }
 
 .topleft_logo{
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-285%, -645%);
-
+    color: white;
+    position: fixed ;
+    top: 0;
+    left: 0;
+    margin: 10px;
 }
 
 
