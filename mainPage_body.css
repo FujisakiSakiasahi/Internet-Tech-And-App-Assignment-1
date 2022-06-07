@@ -52,10 +52,30 @@ a:hover {
     border-radius: 10px;
 }
 
+caption {
+    font-size: larger; 
+    padding-top: 20px; 
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    
+}
+
 #link_to_news{
     color: whitesmoke;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
     padding-top: 10px ;
+}
+
+@media only screen and (min-width: 768px){
+    .logo-size-desktop {padding-top: 1em;}
+    .logo-text-size-desktop {padding-top: 1em;}
+    .header-mini-menu-hiding {display: none;}
+}
+
+@media only screen and (max-width: 768px){
+    .logo-size-phone {padding-top: 5em;}
+    .logo-text-size-phone {padding-bottom: 5em;}
+    .header-menu-hiding {display: none;}
 }
