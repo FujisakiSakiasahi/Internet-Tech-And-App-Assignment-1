@@ -35,6 +35,12 @@ div::after{
     margin: auto;
 }
 
+#captions{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .content {
     width: 80%;
     margin: auto;
@@ -54,6 +60,7 @@ div::after{
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
+    font-family: sans-serif;
 }
 
 .content_block_element:hover{
@@ -67,10 +74,31 @@ div::after{
     height: 10em;
 }
 
+#content_block_element_text{
+    font-size: 1em;
+}
+
 .partners{
     width: 75%;
     margin: auto;
     display: block;
+}
+
+.partners_container{
+    display:flex;
+    justify-content: center;
+}
+
+.partners_images{
+    margin: 5px;
+    border: 1px;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+.partners_images img{
+    width: 10vw;
+    height: 10vw;
 }
 
 .image_frame{
@@ -122,7 +150,7 @@ footer {
     #footer-img {
         width: 20%;
     }
-  }
+}
 
 /*slideshow */
 .slideshow-container {
