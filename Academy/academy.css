@@ -112,17 +112,23 @@ footer {
     padding:10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 830px) {
+    .footer-main{
+        width: 100%;
+    }
     .col-40 {
         width: 100%;
+        padding-top: 10px;
+        text-align: center;
     }
     .col-20{
         width:100%;
+        align-items: center;
     }
     #footer-img {
-        width: 20%;
+        width: 150px;
     }
-  }
+}
 
 /*slideshow */
 .slideshow-container {
