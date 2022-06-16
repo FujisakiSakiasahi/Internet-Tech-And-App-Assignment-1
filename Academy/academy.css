@@ -165,10 +165,10 @@ footer {
         float:none;
     }
 
-    .header .content {
+    .header.content {
         align-items: center;
         text-align: center;
-        margin: auto;
+        margin: auto
     }
 
     .header-right{
