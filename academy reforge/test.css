@@ -53,6 +53,7 @@ body {
     transition-duration: 0.5s;
 }
 
+/* -------------------------SLIDESHOW-PROGRAMS------------------------------- */
 .slideshow{
     overflow: hidden;
     height: 500px;
@@ -101,11 +102,15 @@ body {
 }
 
 .slideshow .container .slide-content .slide-function-container{
-    display: flex;
+    display: block;
     z-index: 1;
 }
 
-.slideshow .container .slide-content .slide-function-container .left-part{
+.slideshow .container .slide-content .slide-function-container .lr-button{
+    display: flex;
+}
+
+.slideshow .container .slide-content .slide-function-container .lr-button .left-part{
     height: 500px;
     width: 500px;
     display: flex;
@@ -113,7 +118,7 @@ body {
     justify-content: flex-start;
 }
 
-.slideshow .container .slide-content .slide-function-container .right-part{
+.slideshow .container .slide-content .slide-function-container .lr-button .right-part{
     height: 500px;
     width: 500px;
     display: flex;
@@ -121,10 +126,31 @@ body {
     justify-content: flex-end;
 }
 
+/* .slideshow .container .slide-content .slide-function-container .bot-bulletpoint{
+    display: block;
+    z-index: 2;
+    width: 1000px;
+    height: 500px;
+}
+
+.slideshow .container .slide-content .slide-function-container .bot-bulletpoint .dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+} */
+/* -------------------------SLIDESHOW-PROGRAMS------------------------------- */
+
+
 .content{
     background-color: aqua;
 }
 
+/* -------------------------FOOTER------------------------------- */
 .footer{
     overflow: hidden;
     display: flex;
@@ -219,3 +245,4 @@ body {
     clear: both;
     text-align: center;
 }
+/* -------------------------FOOTER------------------------------- */

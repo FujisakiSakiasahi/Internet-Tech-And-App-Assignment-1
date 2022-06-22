@@ -1,11 +1,12 @@
-var slide_num = 1 ;
-showSlide(slide_num);
+var slide_num = 0 ;
+autoplay();
 
 function nextSlide(n){
     showSlide(slide_num += n) ;
 }
 
 function showSlide(n){
+    slide_num = n ;
     var x = document.getElementsByClassName("slide-img");
 
     if(n > x.length){
@@ -19,4 +20,9 @@ function showSlide(n){
     }
 
     x[slide_num-1].style.display = "block" ;
+}
+
+function autoplay(){
+    nextSlide(1) ;
+    setTimeout(autoplay, 5000) ;
 }
