@@ -136,7 +136,14 @@ div::after {
 .partners {
     width: 75%;
     margin: auto;
-    display: block;
+    position: relative;
+    
+}
+
+.image_container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .partners_container {
