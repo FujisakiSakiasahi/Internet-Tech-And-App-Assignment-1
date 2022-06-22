@@ -24,5 +24,5 @@ function showSlide(n){
 
 function autoplay(){
     nextSlide(1) ;
-    setTimeout(autoplay, 5000) ;
+    setTimeout(autoplay, 500000) ; //remember to change back the time
 }

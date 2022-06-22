@@ -88,30 +88,52 @@ body {
 
 /* ---------------------------------------- */
 
-.course_container{
-    font-family: sans-serif;
-    color: black;
-    overflow: hidden;
-    display: flex;
-}
 .img_holder{
-    display: flex;
+    max-width: 700px;
 }
 
-.text_holder {
+.course_container{
     display: flex;
-    flex-direction: column;
+    
+}
+
+.text_holder{
+    color: black;
+    text-align: center;
+}
+
+.text{
+    display: inline-block;
+    color: black;
+    max-width: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text a{
+    background-color: orange;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
     justify-content: center;
-    width: 300px;
-}
-.text {
-    width: 200px;
 }
 
-.img_holder img{
+
+a :visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+#course_img{
     width: 700px;
     height: 500px;
 }
+
+
 
 /* ---------------------------------------- */
 
@@ -175,6 +197,8 @@ body {
 .content{
     background-color: aqua;
 }
+
+
 
 /* -------------------------FOOTER------------------------------- */
 .footer{
