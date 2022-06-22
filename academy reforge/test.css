@@ -74,14 +74,26 @@ body {
     z-index: 0;
 }
 
+.slideshow .container .slide-content .slide-imgs div{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+}
+
 .slideshow .container .slide-content .slide-imgs .slide-img{
     display: none;
 }
+
+/* ---------------------------------------- */
+
+/* ---------------------------------------- */
 
 .slideshow .container .slide-content button{
     color: whitesmoke;
     background-color: #181818;
     border: none;
+    width: 20px;
+    height: 30px;
 }
 
 .slideshow .container .slide-content .slide-function-container button:hover{
@@ -173,10 +185,37 @@ body {
     padding-right: 5px;
 }
 
+.footer .container .other{
+    width: 1000px;
+    clear: both;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container .other a{
+    color: gray;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer .container .other a:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.footer .container .other div{
+    height: 20px;
+    width: 1px;
+    background-color: gray;
+    transform: translateY(4px);
+}
+
 .footer .container .copyright{
     width: 1000px;
     padding: 5px;
-    padding-top: 15px;
+    padding-bottom: 15px;
     clear: both;
     text-align: center;
 }
