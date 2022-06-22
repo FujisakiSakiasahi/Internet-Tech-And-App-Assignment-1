@@ -77,7 +77,8 @@ body {
 .slideshow .container .slide-content .slide-imgs div{
     width: 1000px;
     height: 500px;
-    background-color: white;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 .slideshow .container .slide-content .slide-imgs .slide-img{
@@ -85,6 +86,31 @@ body {
 }
 
 /* ---------------------------------------- */
+
+.course_container{
+    font-family: sans-serif;
+    color: black;
+    overflow: hidden;
+    display: flex;
+}
+.img_holder{
+    display: flex;
+}
+
+.text_holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+.text {
+    width: 200px;
+}
+
+.img_holder img{
+    width: 700px;
+    height: 500px;
+}
 
 /* ---------------------------------------- */
 
