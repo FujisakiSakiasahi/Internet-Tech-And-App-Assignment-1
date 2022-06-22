@@ -323,14 +323,14 @@ footer {
     .content_left{
         padding: auto;
         display: grid;
-        transform: scale(1.0);
+        transform: scale(1.4);
         justify-content: center;
         margin-bottom: 200px;
     }
 
     .content_right{
         display: grid;
-        transform: scale(1.0);
+        transform: scale(1.4);
         justify-content: center;
         margin-bottom: 200px
     }   
