@@ -94,7 +94,6 @@ body {
 
 .course_container{
     display: flex;
-    
 }
 
 .text_holder{
@@ -199,10 +198,83 @@ a :visited{
 /* -------------------------SLIDESHOW-PROGRAMS------------------------------- */
 
 
+/* -------------------------content general------------------------------- */
 .content{
-    background-color: aqua;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
 }
 
+.content .container{
+    width: 1000px;
+    height: fit-content;
+    background-color: #363636;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-break{
+    background-color: #efefef;
+    height: 25px;
+}
+/* -------------------------content general------------------------------- */
+
+
+/* -------------------------about us------------------------------- */
+.content .container .about-us-heading{
+    width: 1000px;
+    text-align: center;
+    color: orange;
+}
+
+.content .container .content-box-warpper{
+    width: 1000px;
+    display: flex;
+}
+
+.content .container .content-box{
+    width: 250px;
+    height: 300px;
+}
+
+.content .container .learn-more-button{
+    width: 1000px;
+    text-align: center;
+}
+/* -------------------------about us------------------------------- */
+
+
+/* -------------------------Testimonials------------------------------- */
+.content .container .quotes-box{
+    display: flex;
+}
+
+.content .container .quotes-box .image{
+    width: 600px;
+    height: 300px;
+}
+
+.content .container .quotes-box .quote{
+    width: 400px;
+    height: 300px;
+}
+/* -------------------------Testimonials------------------------------- */
+
+
+/* -------------------------faqs------------------------------- */
+.content .container{
+    
+}
+
+.content .container .faqs-heading{
+    text-align: center;
+    color: orange;
+}
+
+.content .container .faqs-content{
+    height: 500px;
+}
+/* -------------------------faqs------------------------------- */
 
 
 /* -------------------------FOOTER------------------------------- */
@@ -215,6 +287,56 @@ a :visited{
 
 .footer .container{
     width: 1000px;
+}
+
+.footer .container .email-signup-container{
+    width: 1000px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.footer .container .email-signup-container h1{
+    color: orange;
+}
+
+.footer .container .email-signup-container input[type=text]{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #181818;
+    color: whitesmoke;
+    border: 1px solid orange;
+    padding-left: 10px;
+    outline: none;
+}
+
+.footer .container .email-signup-container input[type=text]:focus{
+    color: whitesmoke;
+}
+
+.footer .container .email-signup-container button{
+    font-size: large;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #181818;
+    color: whitesmoke;
+    border: 1px solid orange;
+}
+
+.footer .container .email-signup-container button:hover{
+    color: orange;
+}
+
+.footer .container .seperate-line{
+    width: 100000px;
+    height: 1px;
+    background-color: gray;
+    margin-bottom: 40px;
+    transform: translateX(-5000px);
 }
 
 .footer .container .push-left{
