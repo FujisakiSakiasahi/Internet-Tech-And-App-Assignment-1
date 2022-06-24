@@ -89,28 +89,27 @@ body {
 
 /* ---------------------------------------- */
 
-.slideshow .container .slide-content button{
+.slideshow .container .slide-content .slide-function-container{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    z-index: 1;
+}
+
+.slideshow .container .slide-content .slide-function-container button{
     color: whitesmoke;
     background-color: #181818;
     border: none;
     width: 20px;
     height: 30px;
+    cursor: pointer;
 }
 
 .slideshow .container .slide-content .slide-function-container button:hover{
     color: orange;
 }
 
-.slideshow .container .slide-content .slide-function-container{
-    display: block;
-    z-index: 1;
-}
-
-.slideshow .container .slide-content .slide-function-container .lr-button{
-    display: flex;
-}
-
-.slideshow .container .slide-content .slide-function-container .lr-button .left-part{
+/* .slideshow .container .slide-content .slide-function-container .left-part{
     height: 500px;
     width: 500px;
     display: flex;
@@ -118,19 +117,17 @@ body {
     justify-content: flex-start;
 }
 
-.slideshow .container .slide-content .slide-function-container .lr-button .right-part{
+.slideshow .container .slide-content .slide-function-container .right-part{
     height: 500px;
     width: 500px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-}
+} */
 
-/* .slideshow .container .slide-content .slide-function-container .bot-bulletpoint{
-    display: block;
-    z-index: 2;
-    width: 1000px;
-    height: 500px;
+.slideshow .container .slide-content .slide-function-container .bot-bulletpoint{
+    width: fit-content;
+    height: fit-content;
 }
 
 .slideshow .container .slide-content .slide-function-container .bot-bulletpoint .dot{
@@ -138,11 +135,19 @@ body {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: black;
+    background-color: gray;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-} */
+}
+
+.slideshow .container .slide-content .slide-function-container .bot-bulletpoint .dot:hover{
+    background-color: orange;
+}
+
+.slideshow .container .slide-content .slide-function-container .bot-bulletpoint .active-dot{
+    background-color: orange;
+}
 /* -------------------------SLIDESHOW-PROGRAMS------------------------------- */
 
 
