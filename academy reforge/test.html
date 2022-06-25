@@ -140,14 +140,22 @@
                     </div>
                 </div>
                 <div class="slide-function-container">
-                    <button class="left" onclick="nextSlide(-1)">&#10094;</button>
-                    <div class="bot-bulletpoint">
-                        <div class="dot active-dot" onclick="showSlide(1)"></div>
-                        <div class="dot" onclick="showSlide(2)"></div>
-                        <div class="dot" onclick="showSlide(3)"></div>
-                        <div class="dot" onclick="showSlide(4)"></div>
+                    <div class="position">
+                        <button onclick="nextSlide(-1)">&#10094;</button>
                     </div>
-                    <button class="right" onclick="nextSlide(1)">&#10095;</button>
+                    <div class="position">
+                        <button onclick="nextSlide(1)">&#10095;</button>
+                    </div>
+                    <div class="position">
+                        <div class="bot-bulletpoint">
+                            <div class="dot active-dot" onclick="showSlide(1)"></div>
+                            <div class="dot" onclick="showSlide(2)"></div>
+                            <div class="dot" onclick="showSlide(3)"></div>
+                            <div class="dot" onclick="showSlide(4)"></div>
+                            <div class="dot" onclick="showSlide(5)"></div>
+                            <div class="dot" onclick="showSlide(6)"></div>
+                        </div>
+                    </div>
                     <script type = "text/javascript" src="test.js"></script>
                 </div>
             </div>
@@ -165,7 +173,9 @@
                 <div class="content-box">box 3</div>
                 <div class="content-box">box 4</div>
             </div>
-            <div class="learn-more-button" width="1000">Learn more</div>
+            <div class="learn-more-button">
+                <a>Learn more</a>
+            </div>
         </div>
     </div>
     <div class="content-break"></div>
@@ -187,13 +197,16 @@
             <div class="faqs-content">
                 question and answers
             </div>
+            <div class="learn-more-button">
+                <a>Learn more</a>
+            </div>
         </div>
     </div>
     <div class="content-break"></div>
     <div class="footer">
         <div class="container">
             <div class="email-signup-container">
-                <h1>Sign up to get more information</h1>
+                <h1>Sign up for our newsletter </h1>
                 <div>
                     <input type="text" placeholder="Type your email here...">
                     <button>Sign up</button>

@@ -155,22 +155,38 @@ a :visited{
 /* ---------------------------------------- */
 
 .slideshow .container .slide-content .slide-function-container{
-    display: flex;
-    width: fit-content;
+    display: bloack;
+    width: 1000px;
     height: fit-content;
     z-index: 1;
 }
 
-.slideshow .container .slide-content .slide-function-container button{
+.slideshow .container .slide-content .slide-function-container div.position:nth-child(1){
+    float: left;
+}
+
+.slideshow .container .slide-content .slide-function-container div.position:nth-child(2){
+    float: right;
+}
+
+.slideshow .container .slide-content .slide-function-container div.position:nth-child(3){
+    display: flex;
+    justify-content: center;
+    clear: both;
+    transform: translateY(440px);
+}
+
+.slideshow .container .slide-content .slide-function-container div button{
     color: whitesmoke;
     background-color: #181818;
     border: none;
     width: 20px;
     height: 30px;
     cursor: pointer;
+    transform: translateY(220px);
 }
 
-.slideshow .container .slide-content .slide-function-container button:hover{
+.slideshow .container .slide-content .slide-function-container div button:hover{
     color: orange;
 }
 
@@ -190,12 +206,13 @@ a :visited{
     justify-content: flex-end;
 } */
 
-.slideshow .container .slide-content .slide-function-container .bot-bulletpoint{
+.slideshow .container .slide-content .slide-function-container div .bot-bulletpoint{
+    display: flex;
     width: fit-content;
     height: fit-content;
 }
 
-.slideshow .container .slide-content .slide-function-container .bot-bulletpoint .dot{
+.slideshow .container .slide-content .slide-function-container div .bot-bulletpoint .dot{
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -206,11 +223,11 @@ a :visited{
     transition: background-color 0.6s ease;
 }
 
-.slideshow .container .slide-content .slide-function-container .bot-bulletpoint .dot:hover{
+.slideshow .container .slide-content .slide-function-container div .bot-bulletpoint .dot:hover{
     background-color: orange;
 }
 
-.slideshow .container .slide-content .slide-function-container .bot-bulletpoint .active-dot{
+.slideshow .container .slide-content .slide-function-container div .bot-bulletpoint .active-dot{
     background-color: orange;
 }
 /* -------------------------SLIDESHOW-PROGRAMS------------------------------- */
@@ -235,6 +252,20 @@ a :visited{
     background-color: #efefef;
     height: 25px;
 }
+
+.content .container .learn-more-button{
+    width: 1000px;
+    text-align: center;
+}
+
+.content .container .learn-more-button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.content .container .learn-more-button a:hover{
+    color: orange;
+}
 /* -------------------------content general------------------------------- */
 
 
@@ -253,11 +284,6 @@ a :visited{
 .content .container .content-box{
     width: 250px;
     height: 300px;
-}
-
-.content .container .learn-more-button{
-    width: 1000px;
-    text-align: center;
 }
 /* -------------------------about us------------------------------- */
 
