@@ -10,10 +10,14 @@ body {
 }
 
 /* div {
-    border: 1px blue solid ;
+    outline: 2px blue solid ;
 } */
 
 .header{
+    background-color: #181818;
+    position: sticky;
+    top: 0;
+    z-index: 3;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -54,7 +58,23 @@ body {
 }
 
 /* -------------------------SLIDESHOW-PROGRAMS------------------------------- */
+.parallax{
+    position: absolute;
+    z-index: 0;
+    height: 500px;
+    width: 100%;
+    background-image: url("lib/parallax_banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(3px);
+}
+
 .slideshow{
+    position: relative;
+    z-index: 1;
     overflow: hidden;
     height: 500px;
 }
@@ -155,7 +175,7 @@ a :visited{
 /* ---------------------------------------- */
 
 .slideshow .container .slide-content .slide-function-container{
-    display: bloack;
+    display: block;
     width: 1000px;
     height: fit-content;
     z-index: 1;
@@ -173,7 +193,6 @@ a :visited{
     display: flex;
     justify-content: center;
     clear: both;
-    transform: translateY(440px);
 }
 
 .slideshow .container .slide-content .slide-function-container div button{
@@ -210,6 +229,7 @@ a :visited{
     display: flex;
     width: fit-content;
     height: fit-content;
+    transform: translateY(440px);
 }
 
 .slideshow .container .slide-content .slide-function-container div .bot-bulletpoint .dot{
@@ -256,15 +276,22 @@ a :visited{
 .content .container .learn-more-button{
     width: 1000px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .content .container .learn-more-button a{
     text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
     color: whitesmoke;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .content .container .learn-more-button a:hover{
     color: orange;
+    border-color: orange;
 }
 /* -------------------------content general------------------------------- */
 
@@ -278,38 +305,89 @@ a :visited{
 
 .content .container .content-box-warpper{
     width: 1000px;
+    margin-bottom: 20px;
     display: flex;
 }
 
 .content .container .content-box{
-    width: 250px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 230px;
     height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.content .container .content-box .about-us-text{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
 }
 /* -------------------------about us------------------------------- */
 
 
 /* -------------------------Testimonials------------------------------- */
 .content .container .quotes-box{
+    display: none;
+}
+
+.content .container .bulletpoint-position{
     display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.content .container .bulletpoint-position .bot-bulletpoint .quotes-dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: gray;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.content .container .bulletpoint-position .bot-bulletpoint .quotes-dot:hover{
+    background-color: orange;
+}
+
+.content .container .bulletpoint-position .bot-bulletpoint .active-quotes-dot{
+    background-color: orange;
+    width: 20px;
 }
 
 .content .container .quotes-box .image{
-    width: 600px;
-    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 580px;
+    height: 280px;
+    overflow: hidden;
 }
 
 .content .container .quotes-box .quote{
-    width: 400px;
-    height: 300px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 380px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .container .quotes-box .quote .quote-text{
+    width: fit-content;
+    height: fit-content;
 }
 /* -------------------------Testimonials------------------------------- */
 
 
 /* -------------------------faqs------------------------------- */
-.content .container{
-    
-}
-
 .content .container .faqs-heading{
     text-align: center;
     color: orange;
@@ -317,6 +395,25 @@ a :visited{
 
 .content .container .faqs-content{
     height: 500px;
+    margin-left: 20px;
+}
+
+.content .container .faqs-content .question{
+    font-size:x-large;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.content .container .faqs-content .answer{
+    font-size: large;
+}
+
+.content .container .faqs-content .answer a{
+    text-decoration: underline;
+}
+
+.content .container .faqs-content .answer a:hover{
+    color: orange;
 }
 /* -------------------------faqs------------------------------- */
 
