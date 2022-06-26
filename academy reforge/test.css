@@ -125,7 +125,7 @@ body {
 
 
 .text_holder p{
-    text-align: justify;
+    text-align: center;
 }
 
 .text{
@@ -136,6 +136,11 @@ body {
     margin-right: 25px;
     font-weight: bold;
 }   
+
+#pricing{
+    font-size: 20px;
+
+}
 
 .read-more{
     color: black;

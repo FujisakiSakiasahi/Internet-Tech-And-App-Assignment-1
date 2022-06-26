@@ -59,5 +59,5 @@ function showQuoteSlide(n){
 function autoplay(){
     nextSlide(1) ;
     nextQuoteSlide(1) ;
-    setTimeout(autoplay, 5000) ; //remember to change back the time
+    setTimeout(autoplay, 500000) ; //remember to change back the time
 }
