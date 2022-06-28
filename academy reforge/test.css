@@ -288,15 +288,20 @@ a :visited{
     text-decoration: none;
     font-size: larger;
     font-weight: bold;
-    color: whitesmoke;
-    border: 2px solid;
-    border-radius: 8px;
+    background-color: whitesmoke;
+    color: #363636;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
     padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .content .container .learn-more-button a:hover{
-    color: orange;
+    color: white;
+    background-color: orange;
     border-color: orange;
+    transition: .2s;
 }
 /* -------------------------content general------------------------------- */
 
@@ -474,7 +479,10 @@ a :visited{
 }
 
 .footer .container .email-signup-container button:hover{
-    color: orange;
+    color: #181818;
+    background-color: orange;
+    transition: .2s;
+
 }
 
 .footer .container .seperate-line{
