@@ -370,7 +370,6 @@ a :visited{
 }
 
 .content .container .quotes-box .image{
-    border: 1px solid;
     border-radius: 10px;
     margin: auto;
     margin-top: 10px;
@@ -378,6 +377,34 @@ a :visited{
     width: 580px;
     height: 280px;
     overflow: hidden;
+}
+
+.content .container .quotes-box .image.img1{
+    background-image: url("lib/graduates-photo-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.content .container .quotes-box .image.img2{
+    background-image: url("lib/graduates-photo-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.content .container .quotes-box .image.img3{
+    background-image: url("lib/graduates-photo-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.content .container .quotes-box .image.img4{
+    background-image: url("lib/graduates-photo-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 .content .container .quotes-box .quote{
@@ -392,6 +419,8 @@ a :visited{
 }
 
 .content .container .quotes-box .quote .quote-text{
+    text-align: justify;
+    margin: 15px ;
     width: fit-content;
     height: fit-content;
 }
@@ -484,6 +513,12 @@ a :visited{
     background-color: orange;
     transition: .2s;
 
+}
+
+.footer .container .email-signup-container p.label{
+    margin-top: none;
+    color: orange;
+    display: none;
 }
 
 .footer .container .seperate-line{
