@@ -108,6 +108,11 @@ body {
 
 /* ---------------------------------------- */
 
+a {
+    color: whitesmoke;
+    text-decoration: none;;
+}
+
 .img_holder{
     max-width: 700px;
 }
